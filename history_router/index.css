@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+
+nav a,
+nav span {
+  position: relative;
+  width: 80px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+nav a:hover,
+nav span:hover {
+  color: #38f;
+}
+
+.router-view {
+  text-align: center;
+}
