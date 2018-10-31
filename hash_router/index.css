@@ -11,7 +11,8 @@ nav {
   margin: 100px auto;
 }
 
-nav a{
+nav a,
+nav span {
   position: relative;
   width: 80px;
   height: 35px;
@@ -23,7 +24,8 @@ nav a{
   transition: color 0.5s;
 }
 
-nav a:hover {
+nav a:hover,
+nav span:hover {
   color: #38f;
 }
 
